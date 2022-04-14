@@ -4,11 +4,12 @@
   "version": "0.0.3",
   "main": "hardhat.config.js",
   "scripts": {
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged --pattern 'contracts/**/*.sol' --pattern 'helpers/**/*.ts'  --pattern 'test-suites**/*.ts' --pattern 'tasks/**/*.ts' --pattern 'markets/**/*.ts'"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "devDependencies": {
