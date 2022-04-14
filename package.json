@@ -4,14 +4,8 @@
   "version": "0.0.3",
   "main": "hardhat.config.js",
   "scripts": {
-    "test": "npx hardhat test",
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
+    "test": "npx hardhat test"
+  }
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
