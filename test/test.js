@@ -9,7 +9,7 @@ let erc721RExample;
 
 const MINT_PRICE = "0.1";
 
-describe("ERC721RExample", function () {
+describe("ERC721RExample', function () {
   before(async function () {
     [owner, account2, account3, account4] = await ethers.getSigners();
     const ERC721RExample = await ethers.getContractFactory("ERC721RExample");
